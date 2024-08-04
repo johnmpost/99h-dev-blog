@@ -99,3 +99,5 @@ I called out the lessons I learned throughout the article, but I'll summarize th
 - Only unit test pure functions.
 - Only unit test non-trivial functions.
 - If unit testing isn't right for a function, integration testing may be.
+
+Happy testing!
