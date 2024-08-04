@@ -95,7 +95,7 @@ By working through this one small part of a project I did at my internship this 
 
 I called out the lessons I learned throughout the article, but I'll summarize them here so you can easily reference them:
 
-- Model effectful resource dependencies as closely as possible
+- Model effectful resource dependencies as closely as possible.
 - Only unit test pure functions.
 - Only unit test non-trivial functions.
 - If unit testing isn't right for a function, integration testing may be.
