@@ -1,4 +1,5 @@
 theme: minima
 minima:
   skin: auto
+  show_excerpts: true
 author: John Post
