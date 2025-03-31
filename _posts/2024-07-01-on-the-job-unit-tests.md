@@ -1,3 +1,7 @@
+---
+title: "On-The-Job Learning: Unit Tests"
+---
+
 # On-The-Job Learning: Unit Tests
 
 One of the things I was tasked with making while at Workshop was a wrapper for Canva's new [Connect API](https://www.canva.dev/docs/connect/). We just needed to use 3 endpoints: list designs, create a design export, and get a design export. Notice how there are both creation and query endpoints for design exports. If you want to export a design from Canva's new API, you have to kick off the export with one API call, and then poll the query endpoint until you get a completed result.
