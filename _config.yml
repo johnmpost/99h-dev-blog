@@ -1,1 +1,4 @@
 theme: minima
+  skin: auto
+author:
+  name: John Post
