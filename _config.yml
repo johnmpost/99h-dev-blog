@@ -1,5 +1,8 @@
-theme: minima
+plugins:
+- jekyll-remote-theme
+remote_theme: "jekyll/minima@f1a2af4"
 minima:
   skin: auto
   show_excerpts: true
-author: John Post
+author:
+  name: John Post
