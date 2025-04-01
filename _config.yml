@@ -1,8 +1,16 @@
 plugins:
 - jekyll-remote-theme
 remote_theme: "jekyll/minima@f1a2af4"
+
+title: blog
+
+author:
+  name: John Post
+
+description: >
+  Sometimes I like to distill my thoughts and ideas into blog posts and put them here to share.
+  Mostly about software engineering but sometimes other stuff too.
+
 minima:
   skin: auto
   show_excerpts: true
-author:
-  name: John Post
