@@ -2,10 +2,10 @@
 title: "On-The-Job Learning: Unit Tests"
 ---
 
-_This article was originally written as a reflection assignment for a college course._
-
 One of the things I was tasked with making while interning at Workshop was a wrapper for Canva's new [Connect API](https://www.canva.dev/docs/connect/). We just needed to use 3 endpoints: list designs, create a design export, and get a design export. Notice how there are both creation and query endpoints for design exports. If you want to export a design from Canva's new API, you have to kick off the export with one API call, and then poll the query endpoint until you get a completed result.
 I'm going to walk through some of my process in making this API wrapper and extract some insights we can learn from it about unit testing.
+
+_This article was originally written as a reflection assignment for a college course._
 
 ## Good unit testing starts with good code organization
 
